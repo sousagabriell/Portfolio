@@ -7879,9 +7879,10 @@ header {
   letter-spacing: 1px; }
 
 @media (max-width: 767.98px) {
-  .about-section .author-img {
+  .about-section{
     display: block;
     height: 300px; } }
+    
 
 .wrap {
   padding: 0; }
@@ -8181,7 +8182,7 @@ textarea.form-control {
   .ftco-media .icon {
     font-size: 50px;
     display: block;
-    color: #2f89fc; }
+    color: #b63a56; }
   .ftco-media.text-center .ftco-icon {
     margin: 0 auto; }
 
@@ -8782,8 +8783,15 @@ textarea.form-control {
     stroke-dashoffset: -35px; }
   100% {
     stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }
+    stroke-dashoffset: -136px; } 
+  }
 
 
+  @media screen and (max-width: 425px){
 
+    .my-5{
+      margin-top: 0px;
+    }
+ 
+}
     
